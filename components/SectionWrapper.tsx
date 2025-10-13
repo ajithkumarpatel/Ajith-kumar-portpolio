@@ -14,7 +14,7 @@ const SectionWrapper: React.FC<SectionWrapperProps> = ({ id, title, children }) 
       className="py-20 md:py-28 min-h-screen flex flex-col justify-center"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.6 }}
     >
       <div className="max-w-4xl mx-auto w-full">

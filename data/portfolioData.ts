@@ -96,9 +96,16 @@ export const projectData: Project[] = [
     {
         title: 'Full-Stack Portal Website',
         description: 'A feature-rich portal with user authentication, a dynamic dashboard, and content management. Built with the MERN stack (MongoDB, Express, React, Node.js) and secured with JWT for authentication.',
+        detailedDescription: 'This comprehensive MERN stack application was built from the ground up to provide a robust user portal. It features secure JWT-based authentication, a role-based access control system, and a dynamic dashboard for content management. The backend is built with Node.js and Express, handling API requests efficiently, while the frontend is a responsive React application built with TypeScript for type safety and scalability. The database of choice is MongoDB, allowing for flexible data schemas.',
         tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'TypeScript'],
         imageUrl: 'https://source.unsplash.com/400x300/?MERN-stack-admin-dashboard,data-visualization-charts,user-management-table,professional-web-app-UI',
+        screenshots: [
+            'https://source.unsplash.com/800x600/?MERN-stack-admin-dashboard,data-visualization-charts,user-management-table,professional-web-app-UI',
+            'https://source.unsplash.com/800x600/?login-page-UI,dark-mode,modern-design',
+            'https://source.unsplash.com/800x600/?user-profile-page,web-app-settings,sleek-interface'
+        ],
         githubUrl: '#',
+        liveUrl: '#',
     },
     {
         title: 'Student Tracker App',

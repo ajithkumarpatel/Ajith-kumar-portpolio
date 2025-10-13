@@ -11,8 +11,10 @@ export interface SkillCategory {
 export interface Project {
   title: string;
   description: string;
+  detailedDescription?: string;
   tags: string[];
   imageUrl: string;
+  screenshots?: string[];
   liveUrl?: string;
   githubUrl: string;
 }
