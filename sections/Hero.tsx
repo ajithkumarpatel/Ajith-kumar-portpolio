@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
             <div className="absolute inset-0 bg-accent rounded-full blur-2xl opacity-40"></div>
             <img 
-              src="https://res.cloudinary.com/dlggfehry/image/upload/v1769769676/ajith_new_1_xlpkip.jpg"
+              src="https://res.cloudinary.com/dlggfehry/image/upload/v1769771036/ChatGPT_Image_Jan_30_2026_04_33_21_PM_lq94g0.png"
               alt="Ajith Kumar"
               className="relative w-full h-full object-cover rounded-full border-4 border-accent shadow-lg"
             />
