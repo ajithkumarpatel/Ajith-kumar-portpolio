@@ -18,7 +18,8 @@ const App: React.FC = () => {
   return (
     <ThemeProvider>
       <NotificationProvider>
-        <div className="relative min-h-screen">
+        <div className="relative min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
+          
           <Navbar />
 
           <main className="container mx-auto px-4 md:px-8">
