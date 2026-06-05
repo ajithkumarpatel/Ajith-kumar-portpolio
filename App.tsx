@@ -9,28 +9,34 @@ import Certifications from './sections/Certifications.tsx';
 import Contact from './sections/Contact.tsx';
 import Footer from './components/Footer.tsx';
 import Chatbot from './components/Chatbot.tsx';
-import { NotificationProvider } from './context/NotificationsContext.tsx';
 import Announcements from './sections/Announcements.tsx';
+
+import { NotificationProvider } from './context/NotificationsContext.tsx';
+import { ThemeProvider } from './context/ThemeContext.tsx';
 
 const App: React.FC = () => {
   return (
-    <NotificationProvider>
-      <div className="relative">
-        <Navbar />
-        <main className="container mx-auto px-4 md:px-8">
-          <Hero />
-          <About />
-          <Skills />
-          <Projects />
-          <Experience />
-          <Certifications />
-          <Announcements />
-          <Contact />
-        </main>
-        <Footer />
-        <Chatbot />
-      </div>
-    </NotificationProvider>
+    <ThemeProvider>
+      <NotificationProvider>
+        <div className="relative">
+          <Navbar />
+
+          <main className="container mx-auto px-4 md:px-8">
+            <Hero />
+            <About />
+            <Skills />
+            <Projects />
+            <Experience />
+            <Certifications />
+            <Announcements />
+            <Contact />
+          </main>
+
+          <Footer />
+          <Chatbot />
+        </div>
+      </NotificationProvider>
+    </ThemeProvider>
   );
 };
 
