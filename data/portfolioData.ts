@@ -146,6 +146,16 @@ export const projectData: Project[] = [
 
 export const experienceData: ExperienceItem[] = [
     {
+        role: 'Founder & CEO',
+        company: 'Brotech Websolutions',
+        period: '2025 – Present',
+        description: [
+            'Founded a client-facing web development startup and architected custom full-stack web applications for 3+ small business clients, managing complete delivery from system design to production deployment.',
+            'Owned the full Software Development Life Cycle (SDLC), including requirements analysis, database schema design, API development, frontend implementation, QA testing, deployment pipelines, and post-launch maintenance.',
+            'Applied Agile development practices for sprint planning, feature prioritization, and iterative delivery, consistently meeting client deadlines with production-ready software.'
+        ],
+    },
+    {
         role: 'Cybersecurity Analyst Intern (Virtual)',
         company: 'Deloitte Australia',
         period: 'July 2025 – October 2025',
